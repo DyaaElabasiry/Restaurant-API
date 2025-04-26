@@ -1,0 +1,15 @@
+F:\Projects\.NET\api\Restaurant.Application\bin\Debug\net9.0\Restaurants.Application.deps.json
+F:\Projects\.NET\api\Restaurant.Application\bin\Debug\net9.0\Restaurants.Application.dll
+F:\Projects\.NET\api\Restaurant.Application\bin\Debug\net9.0\Restaurants.Application.pdb
+F:\Projects\.NET\api\Restaurant.Application\bin\Debug\net9.0\Restaurants.Domain.dll
+F:\Projects\.NET\api\Restaurant.Application\bin\Debug\net9.0\Restaurants.Domain.pdb
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.csproj.AssemblyReference.cache
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.AssemblyInfoInputs.cache
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.AssemblyInfo.cs
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaura.6AB96A7C.Up2Date
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.dll
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\refint\Restaurants.Application.dll
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\Restaurants.Application.pdb
+F:\Projects\.NET\api\Restaurant.Application\obj\Debug\net9.0\ref\Restaurants.Application.dll

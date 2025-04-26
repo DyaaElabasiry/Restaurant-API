@@ -1,0 +1,46 @@
+﻿@Restaurants.Api_HostAddress = https://localhost:7033
+
+GET {{Restaurants.Api_HostAddress}}/api/restaurants
+
+###
+
+@id=1
+GET {{Restaurants.Api_HostAddress}}/api/restaurants/{{id}}
+
+###
+
+
+POST {{Restaurants.Api_HostAddress}}/api/restaurants
+Content-Type: application/json
+
+{
+  "name": "Sunrise Diner",
+  "description": "Cozy spot offering gourmet breakfast and brunch options",
+  "category": "Diner",
+  "hasDelivery": false,
+  "contactEmail": "info@sunrisediner.com",
+  "contactNumber": "987-654-3210",
+  "city": "San Francisco",
+  "street": "789 Pine Street",
+  "postalCode": "94107"
+}
+
+###
+
+//@id=3
+DELETE {{Restaurants.Api_HostAddress}}/api/restaurants/{{id}}
+
+###
+@RestaurantId = 4
+
+
+POST {{Restaurants.Api_HostAddress}}/api/Restaurants/{{RestaurantId}}/Dishes
+Content-Type: application/json
+
+{
+  "name": "Spaghetti Carbonara",
+  "description": "Traditional Italian pasta dish with eggs, pancetta, and Pecorino cheese",
+  "price": 15.50
+}
+
+###

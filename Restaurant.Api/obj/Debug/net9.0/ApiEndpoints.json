@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "Restaurants.Api.Controllers.RestaurantsController",
+    "Method": "GetRestaurants",
+    "RelativePath": "api/Restaurants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.Api.Controllers.RestaurantsController",
+    "Method": "CreateRestaurant",
+    "RelativePath": "api/Restaurants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Restaurants.Application.Restaurants.Commands.CreateRestaurantCommand.CreateRestaurantCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.Api.Controllers.RestaurantsController",
+    "Method": "UpdateRestaurant",
+    "RelativePath": "api/Restaurants",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Restaurants.Application.Restaurants.Commands.UpdateRestaurantCommand.UpdateRestaurantCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.Api.Controllers.RestaurantsController",
+    "Method": "GetRestaurantById",
+    "RelativePath": "api/Restaurants/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.Api.Controllers.RestaurantsController",
+    "Method": "DeleteRestaurant",
+    "RelativePath": "api/Restaurants/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.Api.Controllers.DishesController",
+    "Method": "CreateDish",
+    "RelativePath": "api/Restaurants/{RestaurantId}/Dishes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RestaurantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Restaurants.Application.Dishes.Commands.CreateDish.CreateDishCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

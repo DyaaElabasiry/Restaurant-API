@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\.NET\\api\\Restaurant.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|f:\\projects\\.net\\api\\restaurant.api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|solutionrelative:middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887CB6-BF01-425F-BD15-AB43AA9F22BF}|..\\Restaurant.Application\\Restaurants.Application.csproj|f:\\projects\\.net\\api\\restaurant.application\\dishes\\commands\\createdish\\createdishrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887CB6-BF01-425F-BD15-AB43AA9F22BF}|..\\Restaurant.Application\\Restaurants.Application.csproj|f:\\projects\\.net\\api\\restaurant.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|f:\\projects\\.net\\api\\restaurant.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|solutionrelative:restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|f:\\projects\\.net\\api\\restaurant.api\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|solutionrelative:controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|f:\\projects\\.net\\api\\restaurant.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E134AC-90CE-4054-AF2D-4FC4635E464B}|Restaurants.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887CB6-BF01-425F-BD15-AB43AA9F22BF}|..\\Restaurant.Application\\Restaurants.Application.csproj|f:\\projects\\.net\\api\\restaurant.application\\dtos\\dishes\\dishprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D887CB6-BF01-425F-BD15-AB43AA9F22BF}|..\\Restaurant.Application\\Restaurants.Application.csproj|f:\\projects\\.net\\api\\restaurant.application\\dishes\\commands\\createdish\\createdishcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Application\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "..\\Restaurant.Application\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:10:40.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:52:17.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Restaurants.Api.http",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Restaurants.Api.http",
+              "RelativeDocumentMoniker": "Restaurants.Api.http",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Restaurants.Api.http",
+              "RelativeToolTip": "Restaurants.Api.http",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-26T13:40:26.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateDishRequestHandler.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishRequestHandler.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishRequestHandler.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishRequestHandler.cs",
+              "RelativeToolTip": "..\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:53:14.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:47:14.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DishesController.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Api\\Controllers\\DishesController.cs",
+              "RelativeToolTip": "Controllers\\DishesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:36:24.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DishProfile.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Application\\DTOs\\Dishes\\DishProfile.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Application\\DTOs\\Dishes\\DishProfile.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Application\\DTOs\\Dishes\\DishProfile.cs",
+              "RelativeToolTip": "..\\Restaurant.Application\\DTOs\\Dishes\\DishProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:35:18.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateDishCommand.cs",
+              "DocumentMoniker": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishCommand.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishCommand.cs",
+              "ToolTip": "F:\\Projects\\.NET\\api\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishCommand.cs",
+              "RelativeToolTip": "..\\Restaurant.Application\\Dishes\\Commands\\CreateDish\\CreateDishCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:51:21.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
