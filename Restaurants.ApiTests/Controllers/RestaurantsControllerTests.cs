@@ -18,9 +18,9 @@ namespace Restaurants.Api.Controllers.Tests
             // Assert
             //to not give me test fails on github action i will use this
 
-            HttpStatusCode.OK.Should().Be(HttpStatusCode.OK);
+            //HttpStatusCode.OK.Should().Be(HttpStatusCode.OK);
 
-            //response.StatusCode.Should().Be(System.Net.HttpStatusCode.OK);
+            response.StatusCode.Should().Be(System.Net.HttpStatusCode.OK);
         }
 
 
