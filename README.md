@@ -71,11 +71,3 @@ The project follows the principles of Clean Architecture, separating concerns in
 * **`Restaurants.Api`:** The presentation layer, which exposes the API endpoints to the outside world.
 * **`Restaurants.ApiTests` & `Restaurants.ApplicationTests`:** Contain unit and integration tests for the API and application layers, respectively.
 
-## 💡 Related Concepts
-
-* **RESTful API:** A set of rules and conventions for building and interacting with web services. It uses standard HTTP methods (GET, POST, PUT, DELETE) and status codes.
-* **Clean Architecture:** A software design philosophy that separates the elements of a design into ring-like layers. The main rule of clean architecture is that code dependencies can only move from the outer layers inward.
-* **CQRS (Command Query Responsibility Segregation):** A pattern that separates read and write operations for a data store. Commands update data, and queries read data.
-* **JWT (JSON Web Token):** A compact, URL-safe means of representing claims to be transferred between two parties. It is commonly used for authentication and authorization in web applications.
-* **Entity Framework Core:** A modern object-database mapper for .NET. It enables .NET developers to work with a database using .NET objects, eliminating the need for most of the data-access code they usually need to write.
-* **Swagger (OpenAPI):** A specification for documenting and describing RESTful APIs. It allows both humans and computers to discover and understand the capabilities of a service without access to source code, documentation, or through network traffic inspection.
