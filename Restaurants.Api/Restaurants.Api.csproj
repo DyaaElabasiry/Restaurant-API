@@ -6,12 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="NewFolder1\**" />
-    <Content Remove="NewFolder1\**" />
-    <EmbeddedResource Remove="NewFolder1\**" />
-    <None Remove="NewFolder1\**" />
-  </ItemGroup>
+  
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
@@ -25,8 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Restaurant.Application\Restaurants.Application.csproj" />
-    <ProjectReference Include="..\Restaurant.Infrastructure\Restaurants.Infrastructure.csproj" />
+    <ProjectReference Include="..\Restaurants.Application\Restaurants.Application.csproj" />
+	<ProjectReference Include="..\Restaurants.Domain\Restaurants.Domain.csproj" />
+    <ProjectReference Include="..\Restaurants.Infrastructure\Restaurants.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

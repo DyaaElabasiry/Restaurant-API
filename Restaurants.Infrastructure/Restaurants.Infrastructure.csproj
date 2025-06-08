@@ -15,8 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Restaurant.Api\Restaurant.Api.csproj" />
-    <ProjectReference Include="..\Restaurant.Application\Restaurant.Application.csproj" />
+    
+    <ProjectReference Include="..\Restaurants.Application\Restaurants.Application.csproj" />
+	        
+	  <ProjectReference Include="..\Restaurants.Domain\Restaurants.Domain.csproj" />
   </ItemGroup>
 
 </Project>
