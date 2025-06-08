@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Restaurants.Application.DTOs.Restaurants;
 using Restaurants.Application.Restaurants;
@@ -7,6 +8,8 @@ using Restaurants.Application.Restaurants.Commands.DeleteRestaurantCommand;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurantCommand;
 using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
+using Restaurants.Domain.Constants;
+using System.Security.Claims;
 
 namespace Restaurants.Api.Controllers
 {
@@ -16,17 +19,20 @@ namespace Restaurants.Api.Controllers
     {
         
         [HttpGet]
+        //[Authorize]
         public async Task<IActionResult> GetRestaurants()
         {
-            // This is just a placeholder. In a real application, you would retrieve data from the database.
+            
             var restaurants = await mediator.Send(new GetAllRestaurantsQuery());
 
             return Ok(restaurants);
         }
         [HttpGet]
         [Route("{id}")]
+        [Authorize(Roles =UserRoles.Owner+","+UserRoles.Admin)]
         public async Task<IActionResult> GetRestaurantById(int id)
         {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
             var restaurant = await mediator.Send(new GetRestaurantByIdQuery(id));
             if (restaurant == null)
             {
@@ -36,6 +42,7 @@ namespace Restaurants.Api.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> CreateRestaurant([FromBody] CreateRestaurantCommand command)
         {
             if (command == null)

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.SqlServer;
 using Restaurants.Domain.Entities;
@@ -11,16 +12,18 @@ using Restaurants.Domain.Entities;
 
 namespace Restaurants.Infrastructure.Persistence;
 
-public class RestaurantsDbContext:DbContext
+public class RestaurantsDbContext:IdentityDbContext<UserIdentity>
 {
+    public RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options)
+        : base(options)
+    {
+    }
+
+
     internal  DbSet<Restaurant> Restaurants { get; set; }
     internal DbSet<Dish> dishes { get; set; }
 
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Server=DYAA\\SQLEXPRESS;Database=Restaurants;Integrated Security=true;TrustServerCertificate=true");
-    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

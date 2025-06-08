@@ -1,12 +1,13 @@
 ﻿@Restaurants.Api_HostAddress = https://localhost:7033
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZHlhYUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJkeWFhQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiZXhwIjoxNzQ4MDI2ODQ1LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MDMzIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMyJ9.2ShuNbIzJGwKB253L1wQ7PMSutI-eTfLgpiO7Db8ZZg
 
 GET {{Restaurants.Api_HostAddress}}/api/restaurants
 
 ###
 
-@id=1
+@id=4
 GET {{Restaurants.Api_HostAddress}}/api/restaurants/{{id}}
-
+authorization : Bearer {{token}}
 ###
 
 
@@ -41,6 +42,34 @@ Content-Type: application/json
   "name": "Spaghetti Carbonara",
   "description": "Traditional Italian pasta dish with eggs, pancetta, and Pecorino cheese",
   "price": 15.50
+}
+
+###
+POST {{Restaurants.Api_HostAddress}}/api/identity/loginUser
+content-type : application/json
+
+  {
+      "email":"dyaa@gmail.com",
+      "password":"Password1!"
+  }
+
+### 
+PATCH {{Restaurants.Api_HostAddress}}/api/Identity/user
+Content-Type: application/json
+authorization : Bearer {{token}}
+
+{
+  "nationality": "saudi",
+  "birthDate": "2025-05-13T14:04:28.940Z"
+}
+
+###
+
+POST {{Restaurants.Api_HostAddress}}/api/Identity/userRole
+Content-Type: application/json
+
+{
+  
 }
 
 ###
